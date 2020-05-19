@@ -6,3 +6,4 @@ pub mod reverse_number;
 pub mod find_median_sorted_arrays;
 pub mod palindrome_number;
 pub mod longest_palindrome;
+pub mod atoi;
