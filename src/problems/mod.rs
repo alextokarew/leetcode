@@ -9,3 +9,4 @@ pub mod longest_palindrome;
 pub mod atoi;
 pub mod zigzag_conversion;
 pub mod remove_duplicates;
+pub mod regexp;
