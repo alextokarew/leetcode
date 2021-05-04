@@ -23,7 +23,7 @@ fn recursive_match(s: &str, p: &str) -> bool {
 
     if is_multiple {
         if p_char == s_char || p_char == Some('.') {
-            recursive_match(&s[1..], &p) || recursive_match(&s, &p[2..]) || recursive_match(&s[1..], &p[2..])
+            recursive_match(&s[1..], &p) || recursive_match(&s, &p[2..]) || recursive_match(&s[1..], &p[2..]) //TODO: tooo slow
         } else {
             recursive_match(&s, &p[2..])
         }
